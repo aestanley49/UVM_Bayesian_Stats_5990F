@@ -16,7 +16,7 @@ xx <- runif(100,-10,10)
 yy <- aa + bb * xx + rnorm(length(xx),0,ss) 
 
 ## TODO 1) Plot xx, yy as a scatter plot. Add some color to make it look nice.
-
+plot(xx,yy,col="forestgreen")
 
 ### Prepare Data for Stan ####
 input_data <- list(
