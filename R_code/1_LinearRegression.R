@@ -17,6 +17,8 @@ yy <- aa + bb * xx + rnorm(length(xx),0,ss)
 
 ## TODO 1) Plot xx, yy as a scatter plot. Add some color to make it look nice.
 
+plot(xx, yy, col =  "blue")
+
 
 ### Prepare Data for Stan ####
 input_data <- list(
@@ -26,6 +28,8 @@ input_data <- list(
 )
 
 #TODO 2) Before running, take a look at the associated Stan file.
+
+input_data
 
 ### Run Stan model ####
 stan_model <- stan(
