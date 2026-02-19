@@ -19,6 +19,8 @@ yy <- aa + bb * xx + rnorm(length(xx),0,ss)
 
 plot(xx, yy, col =  "blue")
 
+plot(xx,yy,col="forestgreen")
+
 
 ### Prepare Data for Stan ####
 input_data <- list(
